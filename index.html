@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Atharv Gore | CSE Core '30 • VIT Bhopal University</title>
+  <meta name="description" content="Atharv Gore - B.Tech CSE Core (Class of 2030) at VIT Bhopal University. Python developer, Vibecoding enthusiast, frontend creator (HTML, CSS, JS), and competitive programmer.">
+  <meta name="keywords" content="Atharv Gore, VIT Bhopal, CSE Core, Python Developer, Vibecoding, Frontend Developer, HTML, CSS, JavaScript, Portfolio, Class of 2030">
+  <meta name="author" content="Atharv Gore">
+  <meta name="theme-color" content="#060913">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Atharv Gore | CSE Core '30 • VIT Bhopal">
+  <meta property="og:description" content="1st-year B.Tech CSE Core student (Class of 2030) at VIT Bhopal. Python, Vibecoding, Frontend Development (HTML/CSS/JS), and Campus Highlights.">
+  <meta property="og:image" content="media_1788272497231.png">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Atharv Gore | CSE Core '30 @ VIT Bhopal">
+  <meta name="twitter:description" content="Python, Vibecoding & Modern Frontend developer at VIT Bhopal University (Class of 2030).">
+  <meta name="twitter:image" content="media_1788272497231.png">
+
+  <!-- SVG Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Atmospheric Glow Orbs -->
+  <div class="glow-orb orb-indigo" aria-hidden="true"></div>
+  <div class="glow-orb orb-cyan" aria-hidden="true"></div>
+  <div class="glow-orb orb-violet" aria-hidden="true"></div>
+
+  <!-- Background Grid Pattern -->
+  <div class="bg-grid-pattern" aria-hidden="true"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar-wrapper">
+    <nav class="navbar glass-nav" aria-label="Main Navigation">
+      <a href="#hero" class="brand-logo" aria-label="Atharv Gore Home">
+        <span class="brand-name">ATHARV GORE<span class="dot-accent">.</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#gallery" class="nav-item">Campus Life</a></li>
+        <li><a href="#profiles" class="nav-item">Profiles</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Let's Connect</span>
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <i class="fa-solid fa-bars-staggered" aria-hidden="true"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        
+        <!-- Hero Left Content -->
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span class="badge-text">B.Tech CSE Core '30 &bull; VIT Bhopal University</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Atharv Gore</span>
+            <span class="emoji-wave">👋</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            First-year <strong>Computer Science & Engineering</strong> student (Class of 2030) specializing in <strong>Python</strong>, <strong>Vibecoding</strong>, and high-performance <strong>Frontend Engineering</strong> with HTML, CSS, and modern JavaScript.
+          </p>
+
+          <!-- Interactive Developer Terminal Box -->
+          <div class="terminal-card glass-panel" aria-label="Developer Terminal">
+            <div class="terminal-header">
+              <div class="terminal-controls" aria-hidden="true">
+                <span class="ctrl-dot red"></span>
+                <span class="ctrl-dot yellow"></span>
+                <span class="ctrl-dot green"></span>
+              </div>
+              <div class="terminal-tab">
+                <i class="fa-solid fa-terminal terminal-icon" aria-hidden="true"></i>
+                <span class="terminal-title">atharv@vit-bhopal:~</span>
+              </div>
+              <span class="terminal-lang">python / js</span>
+            </div>
+            <div class="terminal-body">
+              <span class="terminal-prompt" aria-hidden="true">$</span>
+              <span class="typed-text" id="typedText"></span>
+              <span class="cursor-blink" aria-hidden="true">_</span>
+            </div>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#skills" class="btn btn-primary">
+              <i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Explore Skills
+            </a>
+            <a href="#profiles" class="btn btn-glass">
+              <i class="fa-brands fa-github" aria-hidden="true"></i> Developer Profiles
+            </a>
+            <a href="#gallery" class="btn btn-glass">
+              <i class="fa-solid fa-images" aria-hidden="true"></i> Campus Moments
+            </a>
+          </div>
+
+          <!-- Quick Stat Counters -->
+          <div class="hero-stats-grid">
+            <div class="stat-card glass-panel">
+              <span class="stat-num">1st</span>
+              <span class="stat-lbl">Year B.Tech</span>
+            </div>
+            <div class="stat-card glass-panel">
+              <span class="stat-num">CSE</span>
+              <span class="stat-lbl">Core Stream</span>
+            </div>
+            <div class="stat-card glass-panel">
+              <span class="stat-num">2030</span>
+              <span class="stat-lbl">Grad Class</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right: Interactive Cyber-IDE Showcase Card -->
+        <div class="hero-ide-wrapper">
+          <div class="cyber-ide-card glass-panel" id="devIdeCard">
+            <div class="ide-glow-ring" aria-hidden="true"></div>
+            
+            <!-- IDE Window Header -->
+            <div class="ide-window-header">
+              <div class="ide-mac-dots" aria-hidden="true">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="ide-tabs-list" role="tablist">
+                <div class="ide-tab active" role="tab" aria-selected="true">
+                  <i class="fa-brands fa-python icon-py" aria-hidden="true"></i>
+                  <span>atharv.py</span>
+                </div>
+                <div class="ide-tab" role="tab" aria-selected="false">
+                  <i class="fa-solid fa-wand-magic-sparkles icon-vibe" aria-hidden="true"></i>
+                  <span>vibecode.ai</span>
+                </div>
+                <div class="ide-tab" role="tab" aria-selected="false">
+                  <i class="fa-brands fa-js icon-js" aria-hidden="true"></i>
+                  <span>frontend.js</span>
+                </div>
+              </div>
+              <div class="ide-status-badge">
+                <span class="status-ping"></span>
+                <span>Python 3.12</span>
+              </div>
+            </div>
+
+            <!-- IDE Code Editor Body -->
+            <div class="ide-code-body">
+              <div class="code-line-numbers" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span>
+              </div>
+              <pre class="code-content"><code><span class="syn-kw">class</span> <span class="syn-class">AtharvGore</span>:
+    <span class="syn-kw">def</span> <span class="syn-func">__init__</span>(<span class="syn-self">self</span>):
+        <span class="syn-self">self</span>.name = <span class="syn-str">"Atharv Gore"</span>
+        <span class="syn-self">self</span>.role = <span class="syn-str">"B.Tech CSE Core ('26-'30)"</span>
+        <span class="syn-self">self</span>.university = <span class="syn-str">"VIT Bhopal"</span>
+        <span class="syn-self">self</span>.stack = [<span class="syn-str">"Python"</span>, <span class="syn-str">"Vibecoding"</span>, <span class="syn-str">"HTML/CSS/JS"</span>]
+        <span class="syn-self">self</span>.mindset = <span class="syn-str">"10x Builder & AI-Native Prototyper"</span>
+
+    <span class="syn-kw">def</span> <span class="syn-func">build_and_ship</span>(<span class="syn-self">self</span>, idea):
+        <span class="syn-kw">return</span> <span class="syn-str">f"✨ Vibecoding '{idea}' at warp speed 🚀"</span>
+
+dev = <span class="syn-class">AtharvGore</span>()
+<span class="syn-func">print</span>(dev.<span class="syn-func">build_and_ship</span>(<span class="syn-str">"High-Impact Tech Solution"</span>))</code></pre>
+            </div>
+
+            <!-- IDE Execution Output Drawer -->
+            <div class="ide-output-drawer">
+              <div class="output-header">
+                <span class="output-tag"><i class="fa-solid fa-play" aria-hidden="true"></i> Output</span>
+                <span class="output-metric">Runtime: 6ms &bull; RAM: 12MB</span>
+              </div>
+              <div class="output-console">
+                <span class="console-prompt">&gt;</span>
+                <span class="console-text">✨ Vibecoding 'High-Impact Tech Solution' at warp speed 🚀</span>
+              </div>
+            </div>
+
+            <!-- Floating Tech Chips -->
+            <div class="float-badge badge-top-right glass-badge">
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> VITian '30
+            </div>
+            <div class="float-badge badge-bottom-left glass-badge">
+              <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> Vibecoding Expert
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">ABOUT ME</div>
+          <h2 class="section-title">Driven by Curiosity, Code & Innovation</h2>
+          <p class="section-desc">Building strong computational foundations while embracing next-generation AI workflows.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio glass-panel">
+            <div class="card-icon-header">
+              <div class="icon-circle icon-indigo" aria-hidden="true">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="card-tag">Profile Overview</span>
+            </div>
+            <h3>Who I Am</h3>
+            <p>
+              I am a 1st-year B.Tech fresher pursuing <strong>Computer Science & Engineering (CSE Core)</strong> at <strong>VIT Bhopal University</strong> (Class of <strong>2030</strong>).
+            </p>
+            <p>
+              My focus is centered around clean code, algorithmic problem-solving with <strong>Python</strong>, high-velocity <strong>Vibecoding</strong> (AI-native prototyping and workflow acceleration), and crafting responsive, accessible web interfaces using core <strong>HTML, CSS, and JavaScript</strong>.
+            </p>
+            <div class="about-keypoints">
+              <div class="keypoint-item"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Python Scripting & Algorithmic Problem Solving</div>
+              <div class="keypoint-item"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> AI-Native Vibecoding & Rapid Prototyping</div>
+              <div class="keypoint-item"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Modern Responsive Frontend Engineering (HTML/CSS/JS)</div>
+            </div>
+          </div>
+
+          <div class="about-card education-card glass-panel">
+            <div class="card-icon-header">
+              <div class="icon-circle icon-cyan" aria-hidden="true">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <span class="card-tag">Academic Journey</span>
+            </div>
+            <h3>Education</h3>
+            <div class="edu-timeline">
+              <div class="timeline-item">
+                <span class="timeline-badge">2026 &mdash; 2030</span>
+                <h4>B.Tech in Computer Science & Engineering (Core)</h4>
+                <p class="timeline-school">Vellore Institute of Technology (VIT), Bhopal</p>
+                <p class="timeline-desc">Comprehensive curriculum covering Data Structures, Algorithms, Object-Oriented Principles, System Foundations, and Modern Software Development.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION (Strictly Frontend HTML/CSS/JS + Python & Vibecoding + Selected Platforms) -->
+    <section id="skills" class="section-padding skills-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">TECH ARSENAL</div>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-desc">Curated technical stack powering fast prototyping, logic, and rich web interfaces.</p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Frontend Development (HTML, CSS, JS Only) -->
+          <div class="skill-card glass-panel">
+            <div class="skill-header">
+              <div class="skill-icon-wrap icon-amber" aria-hidden="true">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div>
+                <span class="skill-cat">Core Web</span>
+                <h4>Frontend Engineering</h4>
+              </div>
+            </div>
+            <p class="skill-desc">Building responsive, pixel-perfect, accessible user interfaces using fundamental web standards.</p>
+            <div class="skills-tags-list">
+              <span class="tech-chip"><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML5</span>
+              <span class="tech-chip"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS3</span>
+              <span class="tech-chip"><i class="fa-brands fa-square-js" aria-hidden="true"></i> JavaScript (ES6+)</span>
+              <span class="tech-chip"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i> Responsive UI</span>
+              <span class="tech-chip"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Glassmorphism</span>
+              <span class="tech-chip"><i class="fa-solid fa-universal-access" aria-hidden="true"></i> Web Accessibility</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Programming & AI (Python & Vibecoding Only) -->
+          <div class="skill-card glass-panel featured-skill">
+            <div class="featured-glow" aria-hidden="true"></div>
+            <div class="skill-header">
+              <div class="skill-icon-wrap icon-cyan" aria-hidden="true">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div>
+                <span class="skill-cat">Core Logic & AI</span>
+                <h4>Python & Vibecoding</h4>
+              </div>
+            </div>
+            <p class="skill-desc">Harnessing Python for computational logic and Vibecoding for high-speed AI-assisted engineering and iteration.</p>
+            <div class="skills-tags-list">
+              <span class="tech-chip chip-highlight"><i class="fa-brands fa-python" aria-hidden="true"></i> Python</span>
+              <span class="tech-chip chip-highlight"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> Vibecoding</span>
+              <span class="tech-chip"><i class="fa-solid fa-brain" aria-hidden="true"></i> AI-Native Prototyping</span>
+              <span class="tech-chip"><i class="fa-solid fa-terminal" aria-hidden="true"></i> Prompt Engineering</span>
+              <span class="tech-chip"><i class="fa-solid fa-bolt" aria-hidden="true"></i> Rapid Product Building</span>
+              <span class="tech-chip"><i class="fa-solid fa-code" aria-hidden="true"></i> Problem Solving</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Platforms & Developer Tools -->
+          <div class="skill-card glass-panel">
+            <div class="skill-header">
+              <div class="skill-icon-wrap icon-violet" aria-hidden="true">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <div>
+                <span class="skill-cat">Ecosystem</span>
+                <h4>Platforms & Tools</h4>
+              </div>
+            </div>
+            <p class="skill-desc">Modern developer environments, version management, and deployment pipelines.</p>
+            <div class="skills-tags-list">
+              <span class="tech-chip"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</span>
+              <span class="tech-chip"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</span>
+              <span class="tech-chip"><i class="fa-solid fa-code" aria-hidden="true"></i> VS Code</span>
+              <span class="tech-chip"><i class="fa-brands fa-linux" aria-hidden="true"></i> Linux / CLI</span>
+              <span class="tech-chip"><i class="fa-solid fa-cloud-arrow-up" aria-hidden="true"></i> Vercel</span>
+              <span class="tech-chip"><i class="fa-solid fa-robot" aria-hidden="true"></i> AI IDEs</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CAMPUS GALLERY SECTION (9 PHOTOS) -->
+    <section id="gallery" class="section-padding gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">CAMPUS LIFE</div>
+          <h2 class="section-title">VIT Bhopal University Moments</h2>
+          <p class="section-desc">A visual journey through iconic academic buildings, twilight avenues, hostel arenas, and natural landscapes.</p>
+        </div>
+
+        <!-- Filter Category Tabs -->
+        <div class="gallery-filters" role="tablist" aria-label="Campus photo filters">
+          <button class="filter-pill active" data-filter="all" role="tab" aria-selected="true">All Photos (9)</button>
+          <button class="filter-pill" data-filter="campus" role="tab" aria-selected="false">Campus & Academic</button>
+          <button class="filter-pill" data-filter="sports" role="tab" aria-selected="false">Sports & Life</button>
+          <button class="filter-pill" data-filter="nature" role="tab" aria-selected="false">Sunsets & Nature</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <!-- Image 1: Walkway Sunset -->
+          <div class="gallery-card glass-panel" data-category="nature" data-src="media_1788272566123.jpg" data-title="Golden Hour Campus Walkway" data-desc="Evening stroll down the central avenue at VIT Bhopal under glowing sunset skies." tabindex="0" role="button" aria-label="View photo: Golden Hour Campus Walkway">
+            <div class="gallery-img-box">
+              <img src="media_1788272566123.jpg" alt="VIT Bhopal Sunset Walkway" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Sunset Vibe</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Golden Hour Walkway</h4>
+              <p>Campus sunset avenue framed by hostel blocks & streetlights.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+          <!-- Image 2: Academic Block & Football Grounds -->
+          <div class="gallery-card glass-panel" data-category="campus" data-src="media_1788272566151.jpg" data-title="Academic Block & Grounds" data-desc="The iconic VIT Bhopal Academic Complex overlooking expansive green sports fields." tabindex="0" role="button" aria-label="View photo: Academic Block & Grounds">
+            <div class="gallery-img-box">
+              <img src="media_1788272566151.jpg" alt="VIT Bhopal Academic Block" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Academic Block</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Academic Complex & Fields</h4>
+              <p>Grand architectural facade overlooking the green sports field.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+          <!-- Image 3: Flora & Greenery -->
+          <div class="gallery-card glass-panel" data-category="nature" data-src="media_1788272566194.jpg" data-title="Campus Flora & Greenery" data-desc="Vibrant blossoms and tranquil natural foliage across the campus landscape." tabindex="0" role="button" aria-label="View photo: Campus Flora & Greenery">
+            <div class="gallery-img-box">
+              <img src="media_1788272566194.jpg" alt="VIT Bhopal Greenery" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Flora & Foliage</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Vibrant Campus Greenery</h4>
+              <p>Lush flora blooming around campus walkways.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+          <!-- Image 4: Morning Sunshine & Meadows -->
+          <div class="gallery-card glass-panel" data-category="nature" data-src="media_1788272566204.jpg" data-title="Morning Sunshine & Meadows" data-desc="Crisp morning rays illuminating expansive green campus lawns." tabindex="0" role="button" aria-label="View photo: Morning Sunshine & Meadows">
+            <div class="gallery-img-box">
+              <img src="media_1788272566204.jpg" alt="VIT Bhopal Morning Meadow" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Sunrise Meadow</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Sunrise & Campus Horizon</h4>
+              <p>Dew-kissed fields catching the morning sun against university blocks.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+          <!-- Image 5: Badminton Court & Hostel Quadrangle -->
+          <div class="gallery-card glass-panel" data-category="sports" data-src="media_1788274116862.jpg" data-title="Hostel Badminton Arena" data-desc="Courtyard matches and lively sports rallies between hostel blocks." tabindex="0" role="button" aria-label="View photo: Hostel Badminton Arena">
+            <div class="gallery-img-box">
+              <img src="media_1788274116862.jpg" alt="Hostel Badminton Court" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Hostel Life</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Badminton & Hostel Courtyard</h4>
+              <p>Energetic evening games in the hostel quadrangle.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+          <!-- Image 6: Campus Stream & Sunburst -->
+          <div class="gallery-card glass-panel" data-category="nature" data-src="media_1788274116872.jpg" data-title="Water Canal & Sky Sunbeams" data-desc="Picturesque campus water stream with stone banks and dramatic sunbeams." tabindex="0" role="button" aria-label="View photo: Water Canal & Sky Sunbeams">
+            <div class="gallery-img-box">
+              <img src="media_1788274116872.jpg" alt="Campus Water Canal" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Scenic Stream</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Water Canal & God Rays</h4>
+              <p>Sunbeams piercing cloudy skies above the campus stream.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+          <!-- Image 7: Evening Sports Arena -->
+          <div class="gallery-card glass-panel" data-category="sports" data-src="media_1788274116874.jpg" data-title="Evening Sports Arena" data-desc="Lit-up floodlights over the campus outdoor sports courts against twilight skies." tabindex="0" role="button" aria-label="View photo: Evening Sports Arena">
+            <div class="gallery-img-box">
+              <img src="media_1788274116874.jpg" alt="Sports Court Floodlights" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Outdoor Courts</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Twilight Sports Complex</h4>
+              <p>High-mast floodlights illuminating outdoor playing grounds.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+          <!-- Image 8: Aerial Horizon View -->
+          <div class="gallery-card glass-panel" data-category="campus" data-src="media_1788274116884.jpg" data-title="Aerial Horizon View" data-desc="Top-view panoramic perspective over lush campus foliage and gazebo plazas." tabindex="0" role="button" aria-label="View photo: Aerial Horizon View">
+            <div class="gallery-img-box">
+              <img src="media_1788274116884.jpg" alt="Aerial Campus View" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Aerial Vista</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Panoramic Campus Canopy</h4>
+              <p>Bird's-eye view across lush green grounds and gazebo plazas.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+          <!-- Image 9: Monsoon Evening Avenue -->
+          <div class="gallery-card glass-panel" data-category="campus" data-src="media_1788274116932.jpg" data-title="Monsoon Evening Avenue" data-desc="Rain-washed campus avenue reflecting street lamps under deep twilight." tabindex="0" role="button" aria-label="View photo: Monsoon Evening Avenue">
+            <div class="gallery-img-box">
+              <img src="media_1788274116932.jpg" alt="Monsoon Campus Road" loading="lazy" width="400" height="260">
+              <span class="photo-badge">Night Avenue</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Rain-Washed Dusk Road</h4>
+              <p>Gleaming twilight asphalt reflecting the glow of campus street lamps.</p>
+              <span class="view-link"><i class="fa-solid fa-expand" aria-hidden="true"></i> Expand View</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILES & DIGITAL PRESENCE -->
+    <section id="profiles" class="section-padding profiles-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">FIND ME ONLINE</div>
+          <h2 class="section-title">Developer Profiles & Socials</h2>
+          <p class="section-desc">Connect with me across competitive programming, code repositories, and professional networks.</p>
+        </div>
+
+        <div class="profiles-grid">
+          <!-- GitHub -->
+          <a href="https://github.com/goredn07-crypto" target="_blank" rel="noopener noreferrer" class="profile-card glass-panel card-github">
+            <div class="profile-icon-wrap" aria-hidden="true">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="profile-body">
+              <div class="profile-title-row">
+                <h3>GitHub</h3>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-icon" aria-hidden="true"></i>
+              </div>
+              <span class="profile-handle">@goredn07-crypto</span>
+              <p>Code repositories, open-source projects, and algorithmic implementations.</p>
+            </div>
+          </a>
+
+          <!-- LeetCode -->
+          <a href="https://leetcode.com/u/itsathryx/" target="_blank" rel="noopener noreferrer" class="profile-card glass-panel card-leetcode">
+            <div class="profile-icon-wrap" aria-hidden="true">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="profile-body">
+              <div class="profile-title-row">
+                <h3>LeetCode</h3>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-icon" aria-hidden="true"></i>
+              </div>
+              <span class="profile-handle">@itsathryx</span>
+              <p>Data structures problem solving, algorithms practice, and daily problem streaks.</p>
+            </div>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/atharv-gore-ba469823b/" target="_blank" rel="noopener noreferrer" class="profile-card glass-panel card-linkedin">
+            <div class="profile-icon-wrap" aria-hidden="true">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="profile-body">
+              <div class="profile-title-row">
+                <h3>LinkedIn</h3>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-icon" aria-hidden="true"></i>
+              </div>
+              <span class="profile-handle">Atharv Gore</span>
+              <p>Academic milestones, professional connections, and industry discussions.</p>
+            </div>
+          </a>
+
+          <!-- X / Twitter -->
+          <a href="https://x.com/__athryx_x_10" target="_blank" rel="noopener noreferrer" class="profile-card glass-panel card-twitter">
+            <div class="profile-icon-wrap" aria-hidden="true">
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="profile-body">
+              <div class="profile-title-row">
+                <h3>X (Twitter)</h3>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-icon" aria-hidden="true"></i>
+              </div>
+              <span class="profile-handle">@__athryx_x_10</span>
+              <p>Tech thoughts, development learnings, and emerging AI trends.</p>
+            </div>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/__athryx_x_10/" target="_blank" rel="noopener noreferrer" class="profile-card glass-panel card-instagram">
+            <div class="profile-icon-wrap" aria-hidden="true">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="profile-body">
+              <div class="profile-title-row">
+                <h3>Instagram</h3>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-icon" aria-hidden="true"></i>
+              </div>
+              <span class="profile-handle">@__athryx_x_10</span>
+              <p>Photography, campus memories, and creative highlights.</p>
+            </div>
+          </a>
+
+          <!-- Direct Email Quick Copy Card -->
+          <div class="profile-card glass-panel card-email" id="emailQuickCopy" data-email="atharvgore41@gmail.com" role="button" tabindex="0" aria-label="Copy direct email address">
+            <div class="profile-icon-wrap" aria-hidden="true">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="profile-body">
+              <div class="profile-title-row">
+                <h3>Direct Email</h3>
+                <i class="fa-regular fa-copy arrow-icon" aria-hidden="true"></i>
+              </div>
+              <span class="profile-handle">atharvgore41@gmail.com</span>
+              <p>Click to copy email address directly or send an instant inquiry.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding contact-section">
+      <div class="container">
+        <div class="contact-box glass-panel">
+          <div class="contact-grid">
+            
+            <div class="contact-info-col">
+              <div class="section-badge">GET IN TOUCH</div>
+              <h2 class="contact-headline">Let's connect & build something extraordinary.</h2>
+              <p class="contact-desc">
+                Have a collaboration idea, tech question, or want to connect with a fellow developer at VIT Bhopal? Send a message anytime!
+              </p>
+
+              <div class="contact-direct-items">
+                <div class="contact-item glass-panel">
+                  <div class="c-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></div>
+                  <div>
+                    <span class="c-label">Direct Email</span>
+                    <a href="mailto:atharvgore41@gmail.com" class="c-val">atharvgore41@gmail.com</a>
+                  </div>
+                </div>
+
+                <div class="contact-item glass-panel" id="phoneItem" role="button" tabindex="0" aria-label="Phone and message options">
+                  <div class="c-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></div>
+                  <div>
+                    <span class="c-label">Direct Inquiries</span>
+                    <span class="c-val">+91 73873624** (Email Preferred)</span>
+                  </div>
+                </div>
+
+                <div class="contact-item glass-panel">
+                  <div class="c-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+                  <div>
+                    <span class="c-label">Campus Location</span>
+                    <span class="c-val">VIT Bhopal University, MP, India</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-col">
+              <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-group">
+                  <label for="name">Your Name <span class="req-star">*</span></label>
+                  <input type="text" id="name" name="name" required maxlength="100" autocomplete="name" class="form-input" placeholder="e.g. Alex Morgan">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Your Email <span class="req-star">*</span></label>
+                  <input type="email" id="email" name="email" required maxlength="100" autocomplete="email" class="form-input" placeholder="alex@example.com">
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Message <span class="req-star">*</span></label>
+                  <textarea id="message" name="message" rows="4" required maxlength="1000" class="form-input" placeholder="Write your message here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="contactSubmitBtn">
+                  <span>Send Message</span>
+                  <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo" aria-label="Atharv Gore Home">
+          <span class="brand-name">ATHARV GORE<span class="dot-accent">.</span></span>
+        </a>
+        <p>B.Tech Computer Science & Engineering (Class of 2030) &bull; VIT Bhopal University</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/goredn07-crypto" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="https://leetcode.com/u/itsathryx/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i class="fa-solid fa-code" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/atharv-gore-ba469823b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="https://x.com/__athryx_x_10" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/__athryx_x_10/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Atharv Gore. Built with Modern Glassmorphism & Cyber-Luxe Aesthetics.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODAL FOR VIT CAMPUS GALLERY -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="VIT Campus Photo Viewer">
+    <div class="lightbox-backdrop" id="lightboxBackdrop" aria-hidden="true"></div>
+    <div class="lightbox-container glass-panel">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close photo modal"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="Enlarged Campus View" id="lightboxImg">
+      </div>
+      <div class="lightbox-caption">
+        <h3 id="lightboxTitle">Campus View</h3>
+        <p id="lightboxDesc"></p>
+      </div>
+      <div class="lightbox-controls">
+        <button class="lightbox-btn prev-btn" id="lightboxPrev" aria-label="Previous photo"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+        <button class="lightbox-btn next-btn" id="lightboxNext" aria-label="Next photo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification glass-panel" id="toastNotification" role="status" aria-live="polite">
+    <i class="fa-solid fa-circle-check" id="toastIcon" aria-hidden="true"></i>
+    <span id="toastMsg">Notification message</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
